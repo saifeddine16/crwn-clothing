@@ -8,7 +8,8 @@
     .logo-container {
       height: 100%;
       width: 70px;
-      padding: 25px;
+      padding: 15px;
+      margin-left: 70px;
     }
   
     .options {
@@ -20,6 +21,17 @@
   
       .option {
         padding: 10px 15px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: transform 0.4s;
+
+        &:hover{
+          transform: scale(1.1);
+        }
+
+        &:last-child{
+          margin-right: 70px;
+        }
       }
     }
   }
